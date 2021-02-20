@@ -1,0 +1,64 @@
+body { 
+    background: url(IMG-5508.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.idBox {
+    position: fixed;
+    top: 8%;
+    left: 47.9%;
+    transform: translate(-50%, -50%);
+}
+
+.generator {
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 33%;
+    left: 47.9%;
+    background-image: linear-gradient(-120deg, #a30505, #ff3838);
+    color: white;
+    margin: 5px 0px -70px 0px;
+    border-radius: 50%;
+    padding: 38.5px 15px;
+    
+}
+
+.batchInput {
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 23%;
+    left: 48%;
+    border: 10px;
+    border-style: ridge black;
+    background-color: green;
+    width: 200px;
+    height: 40px;
+    
+}
+
+::-webkit-input-placeholder {
+    color:white;
+}
+
+@media (max-width: 393px) {
+    .generator {
+        transform: translate(-50%, -50%);
+        position: fixed;
+        top: 33%;
+        left: 47.9%;
+        background-image: linear-gradient(-120deg, #a30505, #ff3838);
+        color: white;
+        margin: 18px 2px -6px -8px;
+        border-radius: 50%;
+        padding: 13px 8px;
+        overflow-wrap: break-word;
+        width: 104px;
+    }
+} 
