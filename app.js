@@ -2,11 +2,16 @@ document.getElementById("generateBtn").addEventListener('click', function() {
 
     let batchValue = document.getElementById("batchInput").value;
 
-    if (batchValue<=0){
-        alert("Input the batch number bro!");
+    if (batchValue>0){
+        if(batchValue>44 && batchValue<50) {
+            getRandom(batchValue);
+        }
+        else {
+            alert("Input the batch number between 45 to 49 bro!");
+        }
     }
     else {
-        getRandom(batchValue);
+        alert("Input the batch number bro!");
     }
 })
 
